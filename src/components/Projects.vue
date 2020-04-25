@@ -1,7 +1,7 @@
 <template>
  
   <div class="projects">
-    <h1 class="subheading grey--text">Project</h1>
+    <h1 class="subtitle-1 font-weight-bold grey--text">Project</h1>
     
     <v-container fluid class="my-5">
 
@@ -23,7 +23,14 @@
         <v-card-actions>
           <v-btn
             text
+            dark
             color="deep-purple accent-4"
+          >
+            Learn More
+          </v-btn>
+          <v-btn
+            text
+            color="success"
           >
             Learn More
           </v-btn>
